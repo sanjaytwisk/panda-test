@@ -26,6 +26,10 @@ export default defineConfig({
             (value) => [value, { value: `${value * 0.25}rem` }]
           )
         ),
+        colors: {
+          blue: { value: 'blue' },
+          tomato: { value: 'tomato' },
+        },
       },
     },
   },

@@ -6,6 +6,7 @@ import Code from '@/components/Code';
 import Center from '@/components/Center';
 import Grid from '@/components/Grid';
 import Card from '@/components/Card';
+import { token } from '../../styled-system/tokens';
 
 export default function Home() {
   return (
@@ -85,6 +86,13 @@ export default function Home() {
           <h2>
             Templates <span>-&gt;</span>
           </h2>
+          <svg
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            color={token('colors.amber.100')}
+          >
+            <circle fill="currentColor" cx="10" cy="10" r="10" />
+          </svg>
           <p>Explore starter templates for Next.js.</p>
         </Card>
 

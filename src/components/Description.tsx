@@ -15,7 +15,7 @@ export default styled('div', {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      gap: '0.5rem',
+      gap: 'token(spacing.1)',
     },
     '& p': {
       position: 'relative',
@@ -57,7 +57,7 @@ export default styled('div', {
         alignItems: 'flex-end',
         pointerEvents: 'none',
         inset: 'auto 0 0',
-        padding: '2rem',
+        padding: 'token(spacing.8)',
         height: '200px',
         background:
           'linear-gradient(to bottom,transparent 0%,rgb(var(--background-end-rgb)) 40%)',

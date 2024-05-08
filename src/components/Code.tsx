@@ -4,5 +4,6 @@ export default styled('code', {
   base: {
     fontWeight: '700',
     fontFamily: 'var(--font-mono)',
+    padding: 'token(spacing.1)',
   },
 });

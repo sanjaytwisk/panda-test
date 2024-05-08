@@ -9,7 +9,7 @@ export default styled('div', {
 
     '@media (max-width: 700px)': {
       gridTemplateColumns: '1fr',
-      marginBottom: '120px',
+      marginBottom: 'token(spacing.12)',
       maxWidth: '320px',
       textAlign: 'center',
     },
